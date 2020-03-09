@@ -7,11 +7,11 @@ Gem::Specification.new do |spec|
   spec.email         = ["haseeb.ahmad717@gmail.com"]
 
   spec.summary       = %q{Coronavirus Daily Updates}
-  spec.description   = %q{Purpose of this gem is to track the number of people affected by Coronavirus in all countries}
+  spec.description   = %q{To track the number of people affected by Coronavirus in all countries. Updates of people recovered , newly cases ,states, countries effect by this disease.}
   
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
 
-  spec.metadata["allowed_push_host"] = "http://mygemserver.com"
+  spec.metadata["allowed_push_host"] = "https://rubygems.org"
 
   spec.homepage      = "https://github.com/Haseeb717/coronavirus_updates.git/"
   spec.license       = "MIT"

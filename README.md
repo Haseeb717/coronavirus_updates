@@ -30,7 +30,7 @@ Make sure follow the exact same date format
 
 Response is in json format like 
 
-    `[{"Province/State":"Hubei","Country/Region":"Mainland China","Last Update":"2020-03-08T14:43:03","Confirmed":67707,"Deaths":2986,"Recovered":45235,"Latitude":30.9756,"Longitude":112.2707}]`
+    [{"Province/State":"Hubei","Country/Region":"Mainland China","Last Update":"2020-03-08T14:43:03","Confirmed":67707,"Deaths":2986,"Recovered":45235,"Latitude":30.9756,"Longitude":112.2707}]
     
 ## Development
 

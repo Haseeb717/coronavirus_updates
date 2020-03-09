@@ -1,8 +1,6 @@
 # CoronavirusUpdates
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/coronavirus_updates`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+To track the number of people affected by Coronavirus in all countries. Updates of people recovered , newly cases ,states, countries effect by this disease
 
 ## Installation
 
@@ -22,8 +20,16 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+To get the updates of any particular date 
 
+    CoronavirusUpdates::Day.updates("mm-dd-yyyy")
+    
+Make sure follow the exact same date format
+
+Response is in json format like 
+
+    [{"Province/State":"Hubei","Country/Region":"Mainland China","Last Update":"2020-03-08T14:43:03","Confirmed":67707,"Deaths":2986,"Recovered":45235,"Latitude":30.9756,"Longitude":112.2707}]
+    
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.

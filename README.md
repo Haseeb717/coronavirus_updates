@@ -24,7 +24,7 @@ To get the updates of any particular date
 
     CoronavirusUpdates::Day.updates("mm-dd-yyyy")
     
-Make sure follow the exact same date format
+Make sure follow the exact same date format e.g CoronavirusUpdates::Day.updates("03-08-2020")
 
 Response is in json format like 
 
